@@ -1,0 +1,145 @@
+/* *{
+	 border: 2px red solid !important; 
+} */
+
+
+body{
+	padding: 0 5% 10% 5%;
+	background-color: #fff000;
+	animation-name: teamThree;
+	animation-duration: 10s;
+}
+@keyframes teamThree{
+	from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+a{
+	display: inline-block;
+	width: 16%;
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	margin: 1px;
+}
+.top{
+	margin: 25px;
+}
+nav{
+	display: inline-block;
+	width: 75%;
+	/*  Stretch Goal #2 */
+	background-color: red;
+	position: fixed;
+	top: auto;
+	top: 0;
+}
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+h2{
+	font-size: 30px;
+	margin: 5% 0;
+}
+p{
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;	
+}
+h3{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	border: 1px gray solid;
+	font-size: 22px;
+	padding: 2%;
+}
+.logo{
+	float: right;
+	top: 0;
+	top: auto;
+	float: right;
+}
+.title-div{
+	margin: 45px;
+}
+.title{
+	display: inline-block;
+	width: 40%;
+	margin: 45px;
+	width: 42%;
+	text-align: center;
+}
+.header-img{
+	/* margin: 45px; */
+	float: right;
+	height: 50vh;
+	width: 34%;
+	background-image: url('../img/header-img.png');
+	background-repeat: no-repeat;
+}
+.text-area{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+}
+.textOne{
+	margin: 15px 0 30px;
+}
+.features{
+	display: inline-block;
+	width: 45%;
+}
+.about{
+	display: inline-block;
+	width: 49.2%;
+	margin: 0 0 0 20px;
+}
+.middle-img{
+	margin-left: 225px;
+	width: 100vw;
+	height: 30vh;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-repeat: no-repeat;
+
+}
+.textTwo{
+	padding-bottom: 25px;
+}
+.services{
+	display: inline-block;
+	width: 30%;
+}
+.product{
+	display: inline-block;
+	width: 32%;
+	margin: 0 0 0 20px;
+}
+.vision{
+	display: inline-block;
+	width: 32%;
+	margin: 0 0 0 20px;
+}
+.copyright{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
